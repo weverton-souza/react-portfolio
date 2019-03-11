@@ -2,7 +2,7 @@ import { Container } from "reactstrap"
 
 const BasePage = ({className, children}) => {
   return (
-    <div classeName={`base-page ${ className }`}>
+    <div className={`base-page ${ className }`}>
       <Container>
         { children }
       </Container>

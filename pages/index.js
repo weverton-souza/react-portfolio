@@ -9,7 +9,7 @@ class Index extends React.Component {
 
   constructor() {
     super();
-    this.roles = ['FullStack Developer', 'Team Player', 'Angular, React, JavaScript', 'C#, Python, Java, Spring', 'Rest, AWS, Docker' ]
+    this.roles = ['Team Player', 'Angular, React, TypeScript', 'C#, Python, Java, Spring', 'Rest, AWS, Docker' ]
   }
   render() {
     return (
@@ -27,9 +27,6 @@ class Index extends React.Component {
                     <div className="back">
                       <div className="hero-section-content">
                         <h2> Full Stack Web Developer </h2>
-                        <div className="hero-section-content-intro">
-                          Have a look at my portfolio and job history.
-                        </div>
                       </div>
                       <img className="image" src="/static/images/section-1.png"/>
                       <div className="shadow-custom">
@@ -42,8 +39,7 @@ class Index extends React.Component {
               <Col md="6" className="hero-welcome-wrapper">
                 <div className="hero-welcome-text">
                   <h1>
-                    Welcome to the portfolio website of Weverton Souza.
-                    Get informed, collaborate and discover projects I was working on through the years!
+                  OLÁ, EU SOU WEVERTON SOUZA, FORMANDO EM CIÊNCIAS DA COMPUTAÇÃO E DESENVOLVEDOR.
                   </h1>
                 </div>
                 <Typed
@@ -60,7 +56,7 @@ class Index extends React.Component {
                 />
                 <div className="hero-welcome-bio">
                   <h1>
-                    Let's take a look on my work.
+                    KEEP CALM AND REBOOT!
                   </h1>
                 </div>
               </Col>
